@@ -5,6 +5,7 @@
             <argument name="commands" xsi:type="array">
                 <item name="Yireo_StoreViewCommands::createStoreView" xsi:type="object">Yireo\StoreViewCommands\Console\Command\CreateStoreViewCommand</item>
                 <item name="Yireo_StoreViewCommands::updateStoreView" xsi:type="object">Yireo\StoreViewCommands\Console\Command\UpdateStoreViewCommand</item>
+                <item name="Yireo_StoreViewCommands::detailStoreView" xsi:type="object">Yireo\StoreViewCommands\Console\Command\DetailStoreViewCommand</item>
             </argument>
         </arguments>
     </type>
