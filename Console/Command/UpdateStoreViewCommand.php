@@ -39,7 +39,7 @@ class UpdateStoreViewCommand extends Command
                 continue;
             }
 
-            if ($currentStore->getCode() === (string)$storeViewId || $currentStore->getId() === (int)$storeViewId) {
+            if ((string)$currentStore->getCode() === (string)$storeViewId || (int)$currentStore->getId() === (int)$storeViewId) {
                 $storeView = $currentStore;
                 break;
             }
