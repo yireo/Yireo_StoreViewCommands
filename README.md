@@ -23,12 +23,21 @@ bin/magento module:enable Yireo_StoreViewCommands
 ## Usage
 Create a new StoreView:
 ```bash
-bin/magento store:view:create
+bin/magento store:view:create <code> <name> <website_id> [--group-id=<id>] [--inactive]
 ```
 
-Update an existing StoreView:
+Without `--group-id`, the store view is added to the default store group of the website.
+
+Update an existing StoreView (by ID or code):
 ```bash
-bin/magento store:view:update
+bin/magento store:view:update <id_or_code> <new_code> <new_name> <website_id> [--force]
+```
+
+Changing the code of the default store view of a store group requires `--force`.
+
+Show the details of a StoreView:
+```bash
+bin/magento store:view:detail <code>
 ```
 
 ## Current status
