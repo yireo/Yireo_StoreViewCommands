@@ -5,7 +5,6 @@
         "Magento_Store"
     ],
     "php_versions": [
-        "8.1",
         "8.2",
         "8.3",
         "8.4"
@@ -18,6 +17,6 @@
     "components": [],
     "config": [],
     "tests": [],
-    "phpcs_severity": "7",
-    "phpstan_level": "4"
+    "phpcs_severity": "6",
+    "phpstan_level": "5"
 }
