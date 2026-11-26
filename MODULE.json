@@ -16,7 +16,11 @@
     ],
     "components": [],
     "config": [],
-    "tests": [],
+    "tests": {
+        "unit": 0,
+        "integration": 18,
+        "functional": 0
+    },
     "phpcs_severity": "6",
     "phpstan_level": "5"
 }
